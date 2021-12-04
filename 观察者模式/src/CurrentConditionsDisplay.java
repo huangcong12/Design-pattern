@@ -19,6 +19,6 @@ public class CurrentConditionsDisplay implements Observe {
     }
 
     public void display() {
-        System.out.println("Current conditions:" + temperature + ",F degree and " + humidity + "% humidity");
+        System.out.println("Current conditions:" + temperature + "F degree and " + humidity + "% humidity");
     }
 }
